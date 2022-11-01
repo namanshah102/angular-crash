@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "text": "Diwali",
+      "dateandtime": "27th Oct 2022",
+      "tprice": "2000",
+      "edesc": "Firecrackers",
+      "hostname": "Tanmay bhat",
+      "location": "Bopal",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "Holi",
+      "dateandtime": "10th Nov 2022 at 6pm",
+      "tprice": "500",
+      "edesc": "Rangoli",
+      "hostname": "Manan Shah",
+      "location": "Sola",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "uttrayan",
+      "dateandtime": "12th dec 2022 at 6pm",
+      "tprice": "500",
+      "edesc": "kite",
+      "hostname": "ashish",
+      "location": "bodakdev",
+      "reminder": false,
+      "id": 5
+    }
+  ]
+}

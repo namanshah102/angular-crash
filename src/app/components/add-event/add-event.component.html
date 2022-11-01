@@ -1,0 +1,40 @@
+<form *ngIf="showAddEvent" class="add-form" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+    <label style="color: blue;" for="text">Event Name</label>
+      <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add Event Name">
+  </div>
+
+  <div class="form-control">
+    <label style="color: blue;" for="dateandtime">Event Start Date and Time</label>
+      <input type="text" name="dateandtime" [(ngModel)]="dateandtime" id="dateandtime" placeholder="Add Event Start Date and Time">
+  </div>
+
+  <div class="form-control">
+    <label style="color: blue;" for="tprice">Ticket Price</label>
+      <input type="text" name="tprice" [(ngModel)]="tprice" id="tprice" placeholder="Add Ticket Price">
+  </div>
+
+  <div class="form-control">
+    <label style="color: blue;" for="edesc">Event Description</label>
+      <input type="text" name="edesc" [(ngModel)]="edesc" id="edesc" placeholder="Add Event Description">
+  </div>
+
+  <div class="form-control">
+    <label style="color: blue;" for="hostname">Host Name</label>
+      <input type="text" name="hostname" [(ngModel)]="hostname" id="hostname" placeholder="Add Host Name">
+  </div>
+
+  <div class="form-control">
+    <label style="color: blue;" for="location">Location</label>
+      <input type="text" name="location" [(ngModel)]="location" id="location" placeholder="Add Location">
+  </div>
+  
+  
+  <div class="form-control form-control-check">
+    <label for="reminder">Set Product</label>
+      <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder">
+  </div>
+
+  <button type="submit" class="btn btn-block">Save product</button>
+  <button routerLink="/events" class="btn-1 btn-block-1">Show Events</button>
+</form> 

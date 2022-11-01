@@ -1,0 +1,18 @@
+<div 
+[ngClass]="{ reminder: task.reminder }" 
+class="task"
+(dblclick)="onToggle(task)">
+  <h2>Event Name : {{ task.text }} 
+    <fa-icon
+     (click)="onDelete(task)" 
+     [ngStyle]="{'color':'red'}"  
+     [icon]="faTimes"></fa-icon>
+  </h2>
+  
+  <p> <b style="color: darkgreen;"> Event Start Date and Time: </b> {{ task.dateandtime }}</p>
+  <p> <b style="color: darkgreen;"> Ticket Price: </b>{{ task.tprice }}</p>
+  <p> <b style="color: darkgreen;"> Event Description: </b>{{ task.edesc }}</p>
+  <p> <b style="color: darkgreen;"> Host Name: </b> {{ task.hostname }}</p>
+  <p> <b style="color: darkgreen;"> Location: </b> {{task.location}} </p>
+
+</div>
