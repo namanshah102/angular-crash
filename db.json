@@ -29,6 +29,16 @@
       "location": "bodakdev",
       "reminder": false,
       "id": 5
+    },
+    {
+      "text": "education fair",
+      "dateandtime": "admission",
+      "tprice": "500",
+      "edesc": "admission inquiry",
+      "hostname": "naman shah",
+      "location": "online",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
